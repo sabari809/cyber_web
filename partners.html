@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partners | Global Cyber Works Pentest</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">Global Cyber Works</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
+                <li class="nav-item"><a href="partners.html" class="nav-link">Partners</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Partners Page -->
+    <section class="partners">
+        <div class="partners-hero">
+            <div class="hero-overlay"></div>
+            <div class="container">
+                <h2>Partner with Global Cyber Works for Unmatched Security</h2>
+                <p class="section-subtitle">Join forces with a global leader in cybersecurity to deliver innovative solutions and protect the digital world.</p>
+                <a href="#partnership-form" class="cta-button">Explore Partnership</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="partnership-cta">
+                <h3>Why Choose Global Cyber Works?</h3>
+                <p class="section-subtitle">Collaborate with us to enhance your offerings, expand your market, and drive innovation in cybersecurity.</p>
+                <div class="partnership-benefits">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h4>Advanced Security Expertise</h4>
+                        <p>Access our cutting-edge penetration testing methodologies to strengthen your portfolio.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h4>Strategic Collaboration</h4>
+                        <p>Co-develop tailored solutions to meet your clients’ unique security needs.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h4>Global Reach</h4>
+                        <p>Expand your market presence with our extensive network and co-branded initiatives.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4>Dedicated Support</h4>
+                        <p>Receive premium account management for seamless partnership success.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="partnership-form" id="partnership-form">
+                <div class="form-header">
+                    <h3>Let’s Build a Partnership</h3>
+                    <p>Share your details, and our team will connect to discuss how we can achieve mutual success.</p>
+                </div>
+                <form action="submit-partnership.php" method="POST">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="company-name">Company Name</label>
+                            <input type="text" id="company-name" name="company-name" placeholder="Your company name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-name">Contact Name</label>
+                            <input type="text" id="contact-name" name="contact-name" placeholder="Your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="Your email address" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="industry">Industry</label>
+                            <select id="industry" name="industry" required>
+                                <option value="" disabled selected>Select your industry</option>
+                                <option value="technology">Technology</option>
+                                <option value="finance">Finance</option>
+                                <option value="healthcare">Healthcare</option>
+                                <option value="retail">Retail</option>
+                                <option value="education">Education</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="message">Partnership Goals</label>
+                            <textarea id="message" name="message" placeholder="Share your partnership vision" required></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="cta-button">Submit Inquiry</button>
+                </form>
+            </div>
+
+            <!-- <div class="partnership-cta-banner">
+                <h3>Ready to Shape the Future?</h3>
+                <p>Partner with Global Cyber Works to innovate and secure the digital landscape together.</p>
+                <a href="#partnership-form" class="cta-button">Get Started Now</a>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Global Cyber Works Pentest</h4>
+                    <p>Providing professional penetration testing services to help organizations identify and remediate security vulnerabilities before they can be exploited.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Network Testing</a></li>
+                        <li><a href="services.html">Web Application Testing</a></li>
+                        <li><a href="services.html">Mobile Application Testing</a></li>
+                        <li><a href="services.html">Social Engineering</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="partners.html">Case Studies</a></li>
+                        <li><a href="contact.html">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect With Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="newsletter">
+                        <input type="email" placeholder="Subscribe to our newsletter">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Global Cyber Works Pentest. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Security Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
